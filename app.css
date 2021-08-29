@@ -49,6 +49,10 @@ body{
     hr{
         display: none;
     }
+    .navbar-brand{
+    font-size: 24px;
+    letter-spacing: 5px;
+}
 }
 
 .round{
