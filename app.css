@@ -24,6 +24,9 @@ body{
     font-size: 25px;
     letter-spacing: 12px;
 }
+/* .text-no-margin{
+    margin-right: 0px;
+} */
 
 #mainNavbar .navbar-brand{
     color:#260918;
@@ -43,10 +46,25 @@ body{
         font-size: 3rem;
     }
 }
+@media (max-width: 376px) {
+    .navbar-brand{
+        font-size: 22px;
+        letter-spacing:3px;
+    }
+}
+@media (max-width: 321px) {
+    .navbar-brand{
+        font-size: 20px;
+        letter-spacing:2px;
+    }
+}
 
 @media (max-width: 768px) {
     hr{
         display: none;
+    }
+    h2{
+        font-size: 30px;
     }
 }
 
@@ -58,8 +76,7 @@ hr{
     background-color: grey;
 }
 
-
-h1{
+h2{
     font-weight: 200;
 }
 
@@ -67,4 +84,3 @@ h1{
     background-color: #260918;
     transition: .3s;
 }
-
