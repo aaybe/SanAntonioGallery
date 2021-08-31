@@ -13,6 +13,7 @@
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <!-- Include app.css -->
   <link rel="stylesheet" href="app.css">
+  <script src="app.js"></script>
   <title>San Antonio Gallery</title>
 
 </head>
@@ -308,16 +309,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-
-
-  <script>
-    $(function () {
-      $(document).scroll(function () {
-        var $nav = $("#mainNavbar");
-        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-      });
-    });
-  </script>
 </body>
 
 </html>
