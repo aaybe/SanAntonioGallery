@@ -7,27 +7,20 @@ body{
     font-size: 1.5rem;
 
 }
-
 .row{
     padding-right: 2%;
     padding-left: 2%;
 }
-
 .navbar{
     background: linear-gradient(129deg, rgb(65, 80, 95) 0.00%, rgb(36, 37, 38) 93.96%);
     padding-top: 20px;
     padding-bottom: 20px;
     position: relative;
 }
-
 .navbar-brand{
-    font-size: 25px;
-    letter-spacing: 12px;
+    font-size: 23px;
+    letter-spacing: 8px;
 }
-/* .text-no-margin{
-    margin-right: 0px;
-} */
-
 #mainNavbar .navbar-brand{
     color:#260918;
     font-size: 1.5rem;
@@ -35,11 +28,9 @@ body{
 #mainNavbar .nav-link{
     color: #260918;
 }
-
 #mainNavbar .nav-link:hover{
     color: #adb5bd;
 }
-
 @media (max-width: 1200px) {
     #headingGroup h2 {
         font-weight: 100;
@@ -58,7 +49,6 @@ body{
         letter-spacing:2px;
     }
 }
-
 @media (max-width: 768px) {
     hr{
         display: none;
@@ -67,19 +57,15 @@ body{
         font-size: 30px;
     }
 }
-
 .round{
     border-radius: 5%;
 }
-
 hr{
     background-color: grey;
 }
-
 h2{
     font-weight: 200;
 }
-
 .navbar.scrolled {
     background-color: #260918;
     transition: .3s;
